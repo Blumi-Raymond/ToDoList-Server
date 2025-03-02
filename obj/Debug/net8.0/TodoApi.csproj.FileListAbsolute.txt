@@ -136,3 +136,4 @@ C:\Users\User\Desktop\p3\TodoApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Users\User\Desktop\p3\TodoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\User\Desktop\p3\TodoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\User\Desktop\p3\TodoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\p3\TodoApi\obj\Debug\net8.0\TodoApi.sourcelink.json
