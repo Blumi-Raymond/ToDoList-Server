@@ -93,9 +93,4 @@ app.MapDelete("/items", async (ToDoDbContext db, int id) =>
 
 });
 
-// login
-// app.MapPost("/login", async (ToDoDbContext db,)=>
-// {
-
-// });
 app.Run();
