@@ -34,11 +34,11 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 var app = builder.Build();
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 if (builder.Environment.IsDevelopment())
 {
     app.UseSwaggerUI(options => // UseSwaggerUI is called only in Development.
@@ -51,7 +51,7 @@ app.MapControllers();
 
 app.UseCors("AllowAll");
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Server API is running!");
 // get
 app.MapGet("/items", async (ToDoDbContext db) =>
 {
