@@ -51,7 +51,7 @@ app.MapControllers();
 
 app.UseCors("AllowAll");
 
-app.MapGet("/", () => "Server API is running!");
+app.MapGet("", () => "Server API is running!");
 // get
 app.MapGet("/items", async (ToDoDbContext db) =>
 {
