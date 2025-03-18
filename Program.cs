@@ -37,16 +37,16 @@ var app = builder.Build();
 // if (app.Environment.IsDevelopment())
 // {
     app.UseSwagger();
-    app.UseSwaggerUI();
-// }
-if (builder.Environment.IsDevelopment())
-{
+//     app.UseSwaggerUI();
+// // }
+// if (builder.Environment.IsDevelopment())
+// {
     app.UseSwaggerUI(options => // UseSwaggerUI is called only in Development.
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-        options.RoutePrefix = string.Empty;
+        // options.RoutePrefix = string.Empty;
     });
-}
+// }
 app.MapControllers();
 
 app.UseCors("AllowAll");
